@@ -1,0 +1,41 @@
+/*esto es el titulo*/
+.titulo{
+	font-size: 25px;
+	padding-top: 3%;
+	padding-bottom: 1%;
+}
+/*comienza el menu*/
+.menu{
+	margin: 10px; margin-bottom: 25px; /*float: initial*/;
+}
+.menu li{
+	display: inline;
+	padding:auto;
+}
+.menu a{
+	text-decoration: none;
+	padding: 10px 15px;
+	margin: 15px;
+	color:#192951;
+}
+.menu a:hover{
+	font-size: 15px;
+	background: #192951;
+	color: white;
+}
+/* Inserta tu codigo que es común para todas las páginas aqui */
+/*contactanos*/
+.bg-contactanos h1{ margin-top: 50px; }
+.bg-contactanos p { border: 1px solid gray; margin: 3% auto;padding: 10px;}
+.bg-contactanos label,input,textarea{ outline: none; border:none;margin: auto 5px; font-size: 20px;}
+.bg-contactanos button{ width: 100%;padding: 15px; border-radius: 5px; margin-bottom: 70px;}
+
+/*.bg-contactanos label{width: 5%;}*/
+.casita i{
+	font-size: 50px;
+	color: #777;
+
+	position: fixed;
+	left:24px;
+	top: 35px;
+}

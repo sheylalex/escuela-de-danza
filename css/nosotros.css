@@ -1,0 +1,121 @@
+/* Inserta tu codigo aqui */
+/**{outline: 1px solid rgba(255,0,0,0.4);}*/
+/*inicio foto central*/
+.img-nosotros{
+	position: relative;
+	background-image: url("../img/dance_7.jpg") ;
+	background-size: 150%;	
+	background-position: -2% 39%;
+	height: 400px;
+}
+.fondo-transparente{
+	background-color: rgba(0, 0, 0, .4);
+	width:550px;
+	height: 220px;
+	position: absolute;
+	top: 100px;
+	left: 490px;
+	padding: 25px;
+
+}
+.fondo-transparente p{
+	width: 100%;
+	height: 140px;
+	position: relative;
+	padding: 15px;
+}
+/*fin foto central*/
+/*pilares inicios*/
+.bg-textura2{
+	background-image: url("../img/cubes.png") ;
+	height: 340px;
+}
+.pilares{
+	margin-top: 80px;
+}
+.pilares p{
+	text-align: justify;
+}
+.pilares hr{
+	margin: 20px;
+}
+/*pilares fin*/
+/*instructores*/
+.h-1{
+	font-size: 50px;
+	padding-top: 3%;
+}
+.instruclista{
+	display: inline-block;
+	padding-top: 5%;
+	text-align: center;
+	}
+.instruclista div{
+	width: 300px;
+	height: 250px;
+	}
+.instruclista div:hover{
+	opacity: 0.5;
+    filter: alpha(opacity=40);  /*For IE8 and earlier */
+}
+.inst-1{ 
+	background: url(../img/profesor_4.jpg); 
+	background-size: cover;
+}
+.inst-2{ 
+	background: url(../img/profesor_14.jpg); 
+	background-size: cover;
+}
+.inst-3{ 
+	background: url(../img/profesor_1.jpg);
+	background-size: cover;
+}
+.inst-4{ 
+	background: url(../img/profesor_10.jpg); 
+	background-size: cover;
+}
+.inst-5{ 
+	background: url(../img/profesor_11.jpg); 
+	background-size: cover;
+}
+.inst-6{ 
+	background: url(../img/profesor_12.jpg); 
+	background-size: cover;
+}
+.inst-7{ 
+	background: url(../img/profesor_9.jpg); 
+	background-size: cover;
+}
+.inst-8{ 
+	background: url(../img/profesor_15.jpg); 
+	background-size: cover;
+}
+.instruclista li{
+	list-style: none;
+	display: inline-block;
+	margin: 15px;
+	margin-bottom: 0px;
+	position: relative;
+	vertical-align: top;
+}
+.instruclista p{
+	width:300px;
+	font-size: 20px;
+	}
+.instruclista h4{
+	width:300px;
+	font-size: 25px;
+	}
+.lema{
+	padding: 1%;
+}
+.frases{
+	font-size: 50px;
+	margin: 50px auto;	
+}
+.texto-grande{ font-size: 70px; }
+.absoluto p{ margin: 15px 15px 20px auto;font-size: 15px; }
+.absoluto a{ padding: 50px 30px; background: #020E1E; }
+
+button{ padding: 20px 9%; 
+	font-size: 18px;background: #1A2952;border-radius: 10px;margin-bottom: 50px;}

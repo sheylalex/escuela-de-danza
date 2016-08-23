@@ -1,0 +1,36 @@
+/**{outline:1px solid rgba(255,0,0,0.4);}*/
+
+.bg-plomo{
+	background: #DDDEE0;
+	margin-bottom: 4%;
+	border: 4px solid #1A2950;
+	border-radius: 20px;
+}
+.fotosblog div{
+	width: 100%;
+	height: 230px;
+	border-top-left-radius: 15px; 
+    border-bottom-left-radius: 15px;
+	}
+.fotoballet{
+	background: url(../img/blog1.jpg);
+	background-size: cover;
+}
+.fotoniños{
+	background: url(../img/profesor_5.jpg);
+	background-size: cover;
+}
+.fotocontemporaea{
+	background: url(../img/instructor_1.jpg);
+	background-size: cover;
+}
+.blog{
+	padding: 2%;
+}
+.blog button{
+	background: #1A2950;
+	padding: 2%;
+	width: 25%;
+	color: white;
+	border: #1A2950;
+}

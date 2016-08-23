@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Escuela de Danza</title>
+	<link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Montserrat:400,700'>
+	<link rel="stylesheet" type="text/css" href="css/grid-system.css">
+	<link rel="stylesheet" type="text/css" href="css/utilities.css">
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.css">
+</head>
+
+<body >
+<div class="casita"> <a href="index.html">	<i class="fa fa-home"></i>	</a> 	</div>		
+	<!-- Inserta tu código aqui  -OK-->
+	<header class="text-center"> <!-- YA MEnu -->
+	<!-- Escuela de danza(H3) +ul (class=text-gray) ... No olvidar que existe una clase de  no-decoration -->
+		<h1 class="text-blue titulo"> DANCE &nbsp STUDIO - JULLIART</h1>
+		<ul class="text-gray a-none-decoration menu">
+			<li><a href="nosotros.html">Nosotros</a></li>
+			<li><a href="clases.html">Clases</a></li> 
+			<li><a href="blog.html">Blog</a></li> 
+			<li><a href="index.html #contacto">Contáctanos</a></li>
+		</ul>
+	</header>
+
+	<section class="row "> <!--YA imagen principal -->
+	<!-- ... tener la row en position relative con background(img) y luego poner el texto( H1 +Parrafo + a(inscribete)) en absoluto -->
+		<div class="imgprincipal"></div>
+		<div class="absoluto color-hueso ">
+			<h1 class="texto-grande">STUDIO</h1>
+			<p class="lh">Juliart Studio´s es el lugar perfecto, donde tus pies encontraran mas de 20 estilos de baile unicos y 80 profesores para escoger.</p>
+			<p><a class="a-none-decoration color-hueso bg-img-block" href="inscribete.html">Conócenos</a></p>
+		</div>
+	</section>
+
+	<section class="text-gray row text-center bg-textura clases"> <!-- YA Oferta de Clases -->
+		<!-- p +img +button -->
+		<P class="" >Julliart cuenta con una amplia trayectoria y reputación, brindando una formación de excelencia a cientos de amantes de la danza</P>
+		<img src="img/decoration_1.png" width="100px" height="">
+		<br>
+		<button > <a class="a-none-decoration color-hueso" href="clases.html"> Oferta de Clases</a></button>
+		
+	</section> 
+
+	<section class="instructores row relative bg-blue"> <!-- YA Nuestros instructores --> 
+		<!-- No olvidar:Row en relative -->
+		<div class=" col-6 ">
+			<img class=""src="img/instructor_4.jpg" width="100%" height="450">
+		</div>
+		<div class=" col-6">
+			<img src="img/profesor_9.jpg" width="100%" height="450">
+		</div>
+		<!-- p con bg-color y Darle position absolute y moverlo hacia el centro -->
+		<div class="bg-blue color-hueso abso-p text-center"><p>Nuestros instructores</p></div>
+	</section>
+
+	<section class="row text-center lema"> <!-- YA lema -->
+		<!-- row con bg-imagen -->
+		<p class="text-blue "> <!-- subir font-size  y darle margin o padding--><em>"La danza es un poema en el que cada movimiento es una palabra." </em></p>
+	</section>
+
+	<section class="row color-hueso bg-blue visitanos"> <!-- YA Visitanos -->
+		<div class="col-5"> <!-- DAtos visitano -->
+			<p class="lh">Dance Division de la Juilliard ha logrado una reputación en todo el mundo de la danza de la calidad superior de su educación y formación artística. Bajo la dirección artística de Lorenzo de Rodas , danza Juilliard tiene como objetivo crear verdaderos bailarines contemporáneos - entrenado por igual en el ballet clásico y danza moderna.</p>
+			<h3 class="text-white">Visítanos</h3>
+			<p class="lh">The Julliard Scohol<br>
+			Plaza de Piaca - Pocsi<br>
+			Arequipa - Perú
+			</p>
+		</div>
+		<div class="col-7	"> <!-- YA  mapa -->
+			<!-- mapa no solo imagen  -->
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7650.737433060492!2d-71.37154421394723!3d-16.507472871187854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0x003180bb8aff4462!2sPlaza+de+Piaca!5e0!3m2!1sen!2spe!4v1461552831253" width="480" height="280" frameborder="0" style="border:0" allowfullscreen></iframe>
+	</section>
+
+	
+
+	<footer id="contacto"> <!-- contactanos + derechos reservados -->
+		<div class="bg-contactanos"> <!-- Contactanos -->
+			<!-- imagen de fondo( zapatillas de ballet)(alineado a la derechaq) + color de fondo: blanco-->
+			<div class="container">
+				<div class="row"> 
+					<div class="col-6 display-ib"> 
+					<!-- h1 (text-blue) + 3 imput (con imagenes y texto) + button ( Enviar con texto blanco) -->
+						<h1 class="text-blue ">Contáctanos</h1>
+						<form>
+							<p>
+								<label> <i class="fa fa-user" aria-hidden="true"></i> </label>
+								<input type="text"placeholder="Nombre"></input>
+							</p>
+							<p>
+								<label> <i class="fa fa-envelope" aria-hidden="true"></i> </label>
+								<input type="text"placeholder="Email"></input>
+							</p>
+							<p>
+								<label class="abso-p"> <i class="fa fa-pencil" aria-hidden="true"></i> </label> &nbsp &nbsp &nbsp &nbsp
+								<textarea placeholder="Mensaje" rows="10" cols="40"></textarea>
+							</p>
+						</form>
+					
+						<button class="enviar bg-blue text-white"><h3>ENVIAR</h3></button>
+						</div>
+					<div class="col-6"> <!-- vacia --></div>
+				</div>
+			</div>
+		</div>
+
+		<!--YAA bg:azul y alineado a la izquierda o flotante left -->
+		<p class="text-white bg-blue float-left col-12">
+		 ©Escuela de danza.Todos los derechos reservados
+		 </p> 
+			
+	</footer>
+	</body>
+</html>

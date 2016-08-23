@@ -1,0 +1,47 @@
+/* Inserta tu codigo aqui */
+/**{outline:1px solid rgba(255,0,0,0.4);}*/
+
+.texto img{
+	width: 300px;
+	height: 400px;
+	position:relative;
+	text-align: center;
+}
+.texto{
+	display: inline-block;
+	padding-top: 3%;
+	/*color: #BEBFC1;*/
+	color: #DADBDD;
+}
+.texto li{
+	list-style: none;
+	display: inline-block;
+	margin: 10px;
+	position: relative;
+}
+.fondotexto{
+	background-color:rgba(0, 0, 0, 0.4);
+	width: 250px;
+	height: 130px;
+	position: absolute;
+	padding: 5px;
+	top: 40%;
+	left: 8%;
+	text-align: center;
+}
+.fondotexto:hover{
+	background-color:rgba(0, 0, 0, 0.8);
+}
+
+.texto h4 {
+	font-size: 15px;
+	right: 15px;
+	bottom: 0px;
+	padding: 5%;
+}
+.texto p{
+	font-size: 15px;
+	position:absolute;
+	padding-top: 4%;
+	padding-bottom: 4%;	
+}
